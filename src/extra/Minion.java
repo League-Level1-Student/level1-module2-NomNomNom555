@@ -5,28 +5,29 @@ public class Minion {
 	private int eyes;
 	private String color;
 	private String master;
-	Minion (String name, int eyes, String color){
+	public Minion (String name, int eyes, String color, String master){
 		this.name= name;
 		this.eyes = eyes;
 		this.color= color;	
 	}
-	String getColor() {
+	public String getColor() {
 		return this.color;
 	}
-	void setEyes(int eyes){
-		if(eyes>0) {
-			this.eyes=eyes;
+	public int getEyes(){
+		return this.eyes;
 		}
+	
+	public String getName() {
+			return this.name;
+		}
+	public void setMaster(String master) {
+		this.master= master;
 	}
-	void setName(String name) {
-		if(name.equals("dave")) {
-			this.name=name;
-		}
-		if(name.equals("stuart")) {
-			this.name=name;
-		}
+	public String getMaster(){
+		return this.master;
+	}
 	}
 	
-}
+
 	
 
