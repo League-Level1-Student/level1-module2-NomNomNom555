@@ -5,7 +5,19 @@
 
 public class TeaMaker {
 
-	/* Figure out how to make a cup of tea using the classes below */
+	public static void main(String[] args) {
+		Kettle dyson = new Kettle();
+		dyson.getWater();
+		dyson.boil();
+		TeaBag packet = new TeaBag("mint");
+		packet.getFlavor();
+		Cup china = new Cup();
+		china.makeTea(packet, dyson.getWater());
+	
+	
+	
+	
+	}
 
 }
 
