@@ -15,10 +15,10 @@ public static void main(String[] args) {
 		dos-= 69;
 		tres+= 15;
 	}
-	int g = 13;
-	int t = 499;
-	dos= 461;
-	uno= 75;
+	int g = 50;
+	int t = 367;
+	dos=500;
+	uno= 175;
 	for(int i =0; i<6; i++) {
 		lame.drawRectangle(dos, t, g, uno);
 		dos-=59;
@@ -29,9 +29,9 @@ public static void main(String[] args) {
 	int yay = 370;
 	int nay = 299;
 	int boo = 510;
-	int woo = 489;
+	int woo = 321;
 	int hee = 329;
-	int haw = 330;
+	int haw = 67;
 	for(int i=0;i<6;i++) {
 		lame.drawTriangle(yay, nay, boo, woo, hee, haw);
 		yay+=28;
